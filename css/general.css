@@ -37,6 +37,7 @@ Primary: #e67e22
 
 --- 06 BORDER-RADIUS
 Default: 9px
+Medium: 11px
 
 --- 07 WHITESPACE
 
@@ -59,7 +60,7 @@ html {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Rubik", sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
@@ -125,7 +126,7 @@ body {
 }
 
 .heading-tertiary {
-  font-size: 3.6rem;
+  font-size: 3rem;
   line-height: 1.2;
   margin-bottom: 3.2rem;
 }
@@ -148,13 +149,14 @@ body {
   padding: 1.6rem 3.2rem;
   border-radius: 9px;
   display: inline-block;
+  transition: all 0.3s;
 }
 
 .btn--full:link,
 .btn--full:visited {
   background-color: #e67e22;
   /* Put transition on original "state" */
-  transition: background-color 0.3s;
+  /* transition: background-color 0.3s; */
 }
 
 .btn--full:hover,
@@ -177,6 +179,38 @@ body {
   box-shadow: inset 0 0 0 3px #fff;
 }
 
+.link:link,
+.link:visited {
+  display: inline-block;
+  color: #e67e22;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+  transition: all 0.3s;
+}
+
+.link:hover,
+.link:active {
+  border-bottom: 1px solid transparent;
+}
+
+/* HELPER/SETTING CLASSES */
 .margin-right-sm {
   margin-right: 1.6rem !important;
+}
+
+.margin-bottom-md {
+  margin-bottom: 4.8rem !important;
+}
+
+.margin-top-md {
+  margin-right: 4.8rem !important;
+}
+
+.center-text {
+  text-align: center;
+}
+
+strong {
+  font-weight: 550;
 }
