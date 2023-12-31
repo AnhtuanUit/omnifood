@@ -194,6 +194,23 @@ body {
   border-bottom: 1px solid transparent;
 }
 
+.list-item {
+  font-size: 1.8rem;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.list-icon {
+  width: 3rem;
+  height: 3rem;
+  color: #cf711f;
+}
+
+.all-recipes {
+  font-size: 1.8rem;
+}
+
 /* HELPER/SETTING CLASSES */
 .margin-right-sm {
   margin-right: 1.6rem !important;
