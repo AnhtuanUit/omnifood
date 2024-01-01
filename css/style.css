@@ -387,6 +387,7 @@
   background-color: #fdf2e9;
   justify-self: left;
   overflow: hidden;
+  position: relative;
 }
 
 .plan-box--complete::after {
