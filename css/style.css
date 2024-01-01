@@ -285,13 +285,6 @@
   align-items: center;
 }
 
-.diets-list {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 1.6rem;
-}
-
 /*****************************/
 /* TESTIMONIAL SECTION */
 /*****************************/
@@ -355,14 +348,6 @@
 
 .section-plan {
   padding: 9.6rem 0;
-}
-
-.plan-list {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 1.6rem;
-  margin-bottom: 4.8rem;
 }
 
 .plan-box {
@@ -432,4 +417,40 @@
 
 .plan-sign-up {
   text-align: center;
+  margin-top: 4.8rem;
 }
+
+.plan-detail {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #888;
+}
+
+/* FEATURE */
+.feature-icon {
+  width: 3.2rem;
+  height: 3.2rem;
+  background-color: #fdf2e9;
+  color: #cf711f;
+  margin-bottom: 3.2rem;
+  padding: 1.6rem;
+  border-radius: 50%;
+}
+
+.feature-title {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+
+.feature-description {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
+/* TEMPARATE
+- Font sizes (px):
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+- SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
