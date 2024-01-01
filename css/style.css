@@ -544,6 +544,73 @@
   color: #777;
 }
 
+/*****************************/
+/* FOOTER */
+/*****************************/
+
+.footer {
+  padding-bottom: 9.6rem;
+  color: #777;
+}
+
+.footer-list-icon {
+  display: flex;
+  gap: 2.4rem;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+.footer-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.copyright {
+  font-size: 1.2rem;
+  margin-top: auto;
+}
+
+.footer-list-address {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.footer-text-element {
+  font-size: 1.8rem;
+}
+
+.footer-list-title {
+  color: #333;
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 3.2rem;
+}
+
+.footer-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.link-element:link,
+.link-element:visited {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: #777;
+}
+
+.link-element:hover,
+.link-element:active {
+  color: #333;
+}
+
 /* TEMPARATE
 - Font sizes (px):
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
