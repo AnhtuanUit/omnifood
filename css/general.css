@@ -27,7 +27,10 @@ Primary: #e67e22
 - Tints: 
 #fdf2e9
 #fae5d3
-- Shades: #cf711f
+#eb984e
+- Shades: 
+#cf711f
+#45260a
 - Accents: 
 - Greys: 
 #555
@@ -57,6 +60,7 @@ html {
   /* 10px / 16px = 0.625 = 62.5% */
   /* Percentage if user's browser font-size setting  */
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -64,6 +68,16 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+}
+
+*:focus {
+  /* outline: none; */
+  outline: 1rem solid rgba(230, 125, 34, 0.5);
+}
+
+.cta-text-box *:focus {
+  /* outline: none; */
+  outline: 1rem solid rgba(250, 229, 211, 0.5);
 }
 /*****************************/
 /* GENERAL REUSABLE COMPONENTS */

@@ -17,11 +17,11 @@
     <nav class="main-nav">
 
       <ul class="main-nav-list">
-        <li><a class="main-nav-link" href="#">Section 1</a></li>
-        <li><a class="main-nav-link" href="#">Section 2</a></li>
-        <li><a class="main-nav-link" href="#">Section 3</a></li>
-        <li><a class="main-nav-link" href="#">Section 4</a></li>
-        <li><a class="main-nav-link nav-cta" href="#">Section 5</a></li>
+        <li><a class="main-nav-link" href="#how">How it works</a></li>
+        <li><a class="main-nav-link" href="#meals">Meals</a></li>
+        <li><a class="main-nav-link" href="#testimonials">Testimonials</a></li>
+        <li><a class="main-nav-link" href="#pricing">Pricing</a></li>
+        <li><a class="main-nav-link nav-cta" href="#cta">Try for free</a></li>
       </ul>
     </nav>
   </header>
@@ -33,8 +33,8 @@
           <p class="hero-desciption">The smart 365-days-per-year food subscription that will make you eat healthy again.
             Tailored to your personal tastes and
             nutritional needs.</p>
-          <a href="#" class="btn btn--full margin-right-sm">Start eating well</a>
-          <a href="#" class="btn btn--outline">Learn more &darr;</a>
+          <a href="#cta" class="btn btn--full margin-right-sm">Start eating well</a>
+          <a href="#how" class="btn btn--outline">Learn more &darr;</a>
           <div class="delivered-meals">
             <div class="delivered-imgs">
               <img src="img/customers//customer-1.jpg" alt="Customer photo" />
@@ -70,7 +70,7 @@
       </div>
     </section>
 
-    <section class="section-how">
+    <section class="section-how" id="how">
       <div class="container">
         <span class="sub-heading">How it works</span>
         <h2 class="heading-secondary">Your daily dose of health in 3 simple steps</h2>
@@ -116,7 +116,7 @@
         </div>
       </div>
     </section>
-    <section class="section-meals">
+    <section class="section-meals" id="meals">
       <div class="container center-text">
         <span class="sub-heading">Meals</span>
         <h2 class="heading-secondary">
@@ -205,7 +205,7 @@
       </div>
     </section>
 
-    <section class="section-testimonial">
+    <section class="section-testimonial" id="testimonials">
 
       <div class="testimonial-container">
         <span class="sub-heading">Testimonials</span>
@@ -292,7 +292,7 @@
         </div>
     </section>
 
-    <section class="section-plan">
+    <section class="section-plan" id="pricing">
       <div class="container">
         <span class="sub-heading">Pricing</span>
         <h2 class="heading-secondary">Eating well without breaking the bank</h2>
@@ -375,6 +375,42 @@
           <ion-icon class="feature-icon" name="pause-outline"></ion-icon>
           <p class="feature-title">Pause anytime</p>
           <p class="feature-description">Going on vacation? Just pause your subscription, and we refund unused days.</p>
+        </div>
+      </div>
+    </section>
+    <section class="section-cta" id="cta">
+      <div class="container">
+        <div class="cta-conainter grid grid--3-cols">
+          <div class="cta-text-box">
+            <p class="cta-title">Get your first meal for free!</p>
+            <p class="cta-text">Healthy, tasty and hassle-free meals are waiting for you. Start eating well today. You
+              can cancel or
+              pause anytime. And
+              the first meal is on us!</p>
+            <form class="cta-form grid--cta-form">
+              <div>
+                <label class="label-element" for="ful-name">Full Name</label>
+                <input class="input-element" id="full-name" name="full-name" placeholder="Do Anh Tuan" required />
+              </div>
+              <div>
+                <label class="label-element" for="email">Email</label>
+                <input class="input-element" id="email" name="email" placeholder="me@example.com" required />
+              </div>
+              <div>
+                <label class="label-element" for="where">Where did you hear from us?</label>
+                <select class="input-element" id="where" name="where" required>
+                  <option value="">Please chose one options:</option>
+                  <option value="friend-family">Friend and family</option>
+                  <option value="youtube">Youtube video</option>
+                  <option value="podcast">Podcast</option>
+                  <option value="facebook">Facebook ad</option>
+                  <option value="orthers">Orthers</option>
+                </select>
+              </div>
+              <button class="btn btn--sign-up">Sign up now</button>
+            </form>
+          </div>
+          <div class="cta-img-box"></div>
         </div>
       </div>
     </section>
