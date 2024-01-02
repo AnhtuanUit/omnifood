@@ -125,9 +125,6 @@ body {
 .heading-tertiary {
   font-weight: 700;
   color: #333;
-  /* color: #45260a; */
-  /* color: #343a40; */
-
   letter-spacing: -0.5px;
 }
 
@@ -159,6 +156,7 @@ body {
   letter-spacing: 0.75px;
 }
 
+.btn,
 .btn:link,
 .btn:visited {
   text-decoration: none;
@@ -168,6 +166,12 @@ body {
   border-radius: 9px;
   display: inline-block;
   transition: all 0.3s;
+  font-weight: 600;
+
+  /* Only necessary for .btn */
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
 }
 
 .btn--full:link,

@@ -6,8 +6,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css" />
 <link rel="stylesheet" href="css/general.css" />
+<link rel="stylesheet" href="css/style.css" />
+
 <title>Omnifood</title>
 </head>
 
@@ -380,25 +381,25 @@
     </section>
     <section class="section-cta" id="cta">
       <div class="container">
-        <div class="cta-conainter grid grid--3-cols">
+        <div class="cta grid grid--3-cols">
           <div class="cta-text-box">
-            <p class="cta-title">Get your first meal for free!</p>
+            <h2 class="heading-secondary">Get your first meal for free!</h2>
             <p class="cta-text">Healthy, tasty and hassle-free meals are waiting for you. Start eating well today. You
               can cancel or
               pause anytime. And
               the first meal is on us!</p>
             <form class="cta-form grid--cta-form">
               <div>
-                <label class="label-element" for="ful-name">Full Name</label>
-                <input class="input-element" id="full-name" name="full-name" placeholder="Do Anh Tuan" required />
+                <label for="ful-name">Full Name</label>
+                <input id="full-name" name="full-name" type="text" placeholder="Do Anh Tuan" required />
               </div>
               <div>
-                <label class="label-element" for="email">Email</label>
-                <input class="input-element" id="email" name="email" placeholder="me@example.com" required />
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="me@example.com" required />
               </div>
               <div>
-                <label class="label-element" for="where">Where did you hear from us?</label>
-                <select class="input-element" id="where" name="where" required>
+                <label for="select-where">Where did you hear from us?</label>
+                <select id="select-where" name="select-where" required>
                   <option value="">Please chose one options:</option>
                   <option value="friend-family">Friend and family</option>
                   <option value="youtube">Youtube video</option>
@@ -410,7 +411,7 @@
               <button class="btn btn--sign-up">Sign up now</button>
             </form>
           </div>
-          <div class="cta-img-box"></div>
+          <div class="cta-img-box" role='img' aria-lable='Woman enjoying food'></div>
         </div>
       </div>
     </section>
