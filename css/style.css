@@ -537,19 +537,27 @@
 /*****************************/
 
 .footer {
-  padding-bottom: 9.6rem;
+  padding: 12.8rem 0;
+  border-top: 1px solid #eee;
   color: #777;
 }
 
-.footer-list-icon {
-  display: flex;
-  gap: 2.4rem;
+.grid--footer {
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
 }
 
-.footer-info {
+.logo-col {
   display: flex;
   flex-direction: column;
-  gap: 3.2rem;
+}
+
+.footer-logo {
+  margin-bottom: 3.2rem;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 2.4rem;
 }
 
 .footer-icon {
@@ -558,8 +566,9 @@
 }
 
 .copyright {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   margin-top: auto;
+  line-height: 1.6;
 }
 
 .footer-list-address {
@@ -569,11 +578,11 @@
   gap: 2rem;
 }
 
-.footer-text-element {
+.address-col {
   font-size: 1.8rem;
 }
 
-.footer-list-title {
+.footer-heading {
   color: #333;
   font-weight: 600;
   font-size: 2rem;
@@ -587,15 +596,15 @@
   gap: 2rem;
 }
 
-.link-element:link,
-.link-element:visited {
+.footer-link:link,
+.footer-link:visited {
   text-decoration: none;
   font-size: 1.8rem;
   color: #777;
 }
 
-.link-element:hover,
-.link-element:active {
+.footer-link:hover,
+.footer-link:active {
   color: #333;
 }
 
