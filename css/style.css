@@ -76,6 +76,21 @@
 .icon-mobile-nav[name="close-outline"] {
   display: none;
 }
+
+/* STICKY NAVIGATON */
+.sticky .header {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 999;
+}
+
+.sticky .section-hero {
+  margin-top: 9.6rem;
+}
+
 /*****************************/
 /* HERO SECTION */
 /*****************************/
