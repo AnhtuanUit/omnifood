@@ -3,8 +3,18 @@
 
 This project is the final assignment for the course ["Design and Develop a Killer Website with HTML5 and CSS3"](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/). The objective is to build a responsive real-world website using modern HTML5 and CSS3 techniques, including flexbox and CSS Grid.
 
-## Live Demo
-<img width="1257" alt="Capture" src="https://github.com/AnhtuanUit/omnifood/assets/13465843/fc720466-4150-44e3-81e6-465994100c4c">
+### Video Demo and Live Application
+
+
+
+[![Omnifood Project](https://img.youtube.com/vi/wyHhaosMgC8/maxresdefault.jpg)](https://youtu.be/wyHhaosMgC8)
+
+
+
+
+
+
+Click on the image above or use this 🎬 [Watch the video](https://youtu.be/wyHhaosMgC8) to watch the demo video.
 
 Explore the live demo: [Omnifood Live Demo](https://omnifood-tuando.netlify.app/)
 
