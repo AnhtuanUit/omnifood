@@ -10,11 +10,12 @@ if (btnMenyEl) {
 }
 
 // Sticky navigation
-const sectionHeroEl = document.querySelector(".hero");
+const sectionHeroEl = document.querySelector(".section-hero");
+
 const obs = new IntersectionObserver(
   function (entries) {
     const ent = entries[0];
-    console.log(ent);
+
     if (!ent.isIntersecting) {
       document.body.classList.add("sticky");
     } else {
@@ -24,9 +25,8 @@ const obs = new IntersectionObserver(
   {
     // In the viewport
     root: null,
-    threshold: 1,
-    // rootMargin: "-80px",
+    threshold: 0,
+    rootMargin: "-80px",
   }
 );
-
 obs.observe(sectionHeroEl);
