@@ -113,6 +113,10 @@
   gap: 1.6rem;
 }
 
+.delivered-imgs {
+  display: flex;
+}
+
 .deliverd-imgs {
   display: flex;
 }
