@@ -556,6 +556,7 @@
 }
 
 .footer-icons {
+  list-style: none;
   display: flex;
   gap: 2.4rem;
 }
@@ -571,7 +572,7 @@
   line-height: 1.6;
 }
 
-.footer-list-address {
+.contacts {
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -589,7 +590,7 @@
   margin-bottom: 3.2rem;
 }
 
-.footer-list {
+.footer-nav {
   list-style: none;
   display: flex;
   flex-direction: column;
