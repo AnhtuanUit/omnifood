@@ -5,9 +5,7 @@ This project is the final assignment for the course ["Design and Develop a Kille
 
 ### Video Demo and Live Application
 
-
-
-[![Omnifood Project](https://img.youtube.com/vi/wyHhaosMgC8/maxresdefault.jpg)](https://youtu.be/wyHhaosMgC8)
+[![Omnifood Project](https://github.com/AnhtuanUit/omnifood/assets/13465843/d6f260c4-2558-4308-bfc6-08026a600dac)](https://youtu.be/wyHhaosMgC8)
 
 
 
